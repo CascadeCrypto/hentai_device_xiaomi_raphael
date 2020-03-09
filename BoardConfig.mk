@@ -1,6 +1,7 @@
 #
 # Copyright 2019 The Android Open Source Project
 # Copyright 2019 Paranoid Android
+# Copyright (C) 2020 hentaiOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -59,7 +60,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CONFIG := raphael_defconfig
 ifeq ($(TARGET_PREBUILT_KERNEL),)
-  TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8150
+  TARGET_KERNEL_SOURCE := kernel/xiaomi/raphael
 endif
 
 # Platform

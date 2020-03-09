@@ -2,6 +2,7 @@
 #
 # Copyright (C) 2018 The LineageOS Project
 # Copyright (C) 2019 The Paranoid Android Project
+# Copyright (C) 2020 hentaiOS
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -29,7 +30,7 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 ROOT="$MY_DIR"/../../..
 
-HELPER="$ROOT"/vendor/aosp/build/tools/extract_utils.sh
+HELPER="$ROOT"/vendor/hentai/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
