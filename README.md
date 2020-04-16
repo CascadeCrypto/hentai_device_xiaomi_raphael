@@ -20,6 +20,7 @@ Storage | 64/128/256 GB
 Battery | Non-removable Li-Po 4000 mAh battery
 Display | 1080 x 2340 pixels, 19.5:9 ratio, 6.39 inches, AMOLED HDR (~403 ppi density)
 Camera  | 48MP(Primary) 8MP(Ultra-wide) 13MP(Telephoto)
+Perf    | AnTuTu: 368846 (v7), 437823 (v8) 
 
 ## Device picture
 
